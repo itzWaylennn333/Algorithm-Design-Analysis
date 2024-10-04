@@ -24,7 +24,7 @@ For each vertex u, the algorithm checks all V vertices to see if they are adjace
 
 The growth is relatively smooth and follows an expected pattern based on Dijkstra's time complexity, which is O(V^2) for the basic implementation. As the number of vertices increases, the number of edges grows proportionally due to the fixed edge density
 
-![alt text](TimeComplexityofArrayDijkstra_wrt_V_E.png)
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TimeComplexityofArrayDijkstra_wrt_V_E.png)
 
 # Comparison between Heap and Basic
 
@@ -65,9 +65,9 @@ For *small graphs* (few vertices): The array-based implementation (a) is suffici
 For *large graphs* (many vertices and edges): The heap-based implementation (b) is superior. It handles both large and sparse graphs efficiently, reducing the time complexity to O((V+E)logV), which is significantly better than O(V^2) for dense or large graphs.
 
 ### Theoretical
-![alt text](TheoreticalDijkstraTimeComplexity.gif)
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TheoreticalDijkstraTimeComplexity.gif)
 
 ### Empirical
-![alt text](TimeComplexityofComparison_Basic_Heap.png)
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TimeComplexityofComparison_Basic_Heap.png)
 
 ### *Notice how Basic Dijkstra in BLUE is slightly above Heap Dijkstra in RED*

@@ -57,6 +57,11 @@ Cons:
 For *small graphs* (few vertices): The array-based implementation (a) is sufficient and may even be preferable due to its simplicity.
 For *large graphs* (many vertices and edges): The heap-based implementation (b) is superior. It handles both large and sparse graphs efficiently, reducing the time complexity to O((V+E)logV), which is significantly better than O(V^2) for dense or large graphs.
 
+### Theoretical
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TheoreticalDijkstraTimeComplexity.gif)
+
+### Empirical
 ![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TimeComplexityofComparison_Basic_Heap.png)
 
 ### *Notice how Basic Dijkstra in BLUE is slightly above Heap Dijkstra in RED*
+

@@ -17,7 +17,7 @@
 The graph above represents the empirical time complexity of Dijkstra's algorithm. The plot shows the time taken (in milliseconds) as the number of vertices increases from 1 to 300, with a fixed edge density of 0.2. The data suggests a gradual increase in the time taken as the graph size grows, which aligns with the expected time complexity of Dijkstra's algorithm, 
 𝑂((𝑉+𝐸)log𝑉), where V is the number of vertices and E is the number of edges.
 
-![alt text](TimeComplexityofHeapDijkstra_wrt_V_E.png)
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TimeComplexityofHeapDijkstra_wrt_V_E.png)
 
 # Comparison between Heap and Basic
 
@@ -57,6 +57,6 @@ Cons:
 For *small graphs* (few vertices): The array-based implementation (a) is sufficient and may even be preferable due to its simplicity.
 For *large graphs* (many vertices and edges): The heap-based implementation (b) is superior. It handles both large and sparse graphs efficiently, reducing the time complexity to O((V+E)logV), which is significantly better than O(V^2) for dense or large graphs.
 
-![alt text](TimeComplexityofComparison_Basic_Heap.png)
+![alt text](https://github.com/zImmortal333/Algorithm-Design-Analysis/blob/main/Images/TimeComplexityofComparison_Basic_Heap.png)
 
 ### *Notice how Basic Dijkstra in BLUE is slightly above Heap Dijkstra in RED*

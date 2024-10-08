@@ -22,7 +22,7 @@ Sparse Graphs: O((V+E)logV) -> O(VlogV)​
 ### Empirical Time Complexity
 
 ##### Dense Graph
-    -The graph above represents the empirical time complexity of Dijkstra's algorithm. The plot shows the time taken (in milliseconds) as the number of vertices increases from 1 to 300, with a fixed edge density of 0.2. The data suggests a gradual increase in the time taken as the graph size grows, which aligns with the expected time complexity of Dijkstra's algorithm, 𝑂((𝑉+𝐸)log𝑉) --> O((V^2)logV), where V is the number of vertices and E is the number of edges.
+    - The graph below represents the empirical time complexity of Dijkstra's algorithm. The plot shows the time taken (in milliseconds) as the number of vertices increases from 1 to 300, with a fixed edge density of 0.2. The data suggests a gradual increase in the time taken as the graph size grows, which aligns with the expected time complexity of Dijkstra's algorithm, 𝑂((𝑉+𝐸)log𝑉) --> O((V^2)logV), where V is the number of vertices and E is the number of edges.
 
 ![alt text](Images/TimeComplexityofHeapDenseDijkstra_wrt_V_E.png)
 

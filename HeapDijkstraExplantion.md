@@ -24,13 +24,13 @@ Sparse Graphs: O((V+E)logV) -> O(VlogV)​
 ##### Dense Graph
     -The graph above represents the empirical time complexity of Dijkstra's algorithm. The plot shows the time taken (in milliseconds) as the number of vertices increases from 1 to 300, with a fixed edge density of 0.2. The data suggests a gradual increase in the time taken as the graph size grows, which aligns with the expected time complexity of Dijkstra's algorithm, 𝑂((𝑉+𝐸)log𝑉) --> O((V^2)logV), where V is the number of vertices and E is the number of edges.
 
-![alt text](TimeComplexityofHeapDenseDijkstra_wrt_V_E.png)
+![alt text](Images/TimeComplexityofHeapDenseDijkstra_wrt_V_E.png)
 
 ##### Sparse Graph
     - Utilising a fixed edge density of 20% (edge_density = 0.2). The number of edges grows quadratically as the number of vertices increases because E≈0.2⋅V⋅(V−1) --> V^2.
     - E grows quadratically as V increases.
 
-![alt text](TimeComplexityofHeapSparseDijkstra_wrt_V_E.png)
+![alt text](Images/TimeComplexityofHeapSparseDijkstra_wrt_V_E.png)
 
 # Comparison between Heap and Basic
 
@@ -73,8 +73,8 @@ For *small graphs* (few vertices): The array-based implementation (a) is suffici
 For *large graphs* (many vertices and edges): The heap-based implementation (b) is superior. It handles both large and sparse graphs efficiently, reducing the time complexity to O((V+E)logV), which is significantly better than O(V^2) for dense or large graphs.
 
 ### Theoretical
-![alt text](TheoreticalDijkstraTimeComplexityComparison.png)
+![alt text](Images/TheoreticalDijkstraTimeComplexityComparison.png)
 
 ### Empirical
-![alt text](EmpiricalDijkstraTimeComplexityComparison.png)
-![alt text](TimeComplexityofComparison_Basic_Heap.png)
+![alt text](Images/EmpiricalDijkstraTimeComplexityComparison.png)
+![alt text](Images/TimeComplexityofComparison_Basic_Heap.png)

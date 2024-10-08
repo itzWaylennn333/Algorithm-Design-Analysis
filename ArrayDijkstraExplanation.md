@@ -24,7 +24,7 @@ For each vertex u, the algorithm checks all V vertices to see if they are adjace
 
 The growth is relatively smooth and follows an expected pattern based on Dijkstra's time complexity, which is O(V^2) for the basic implementation. As the number of vertices increases, the number of edges grows proportionally due to the fixed edge density
 
-![alt text](TimeComplexityofArrayDijkstra_wrt_V_E.png)
+![alt text](Images/TimeComplexityofArrayDijkstra_wrt_V_E.png)
 
 # Comparison between Heap and Basic
 

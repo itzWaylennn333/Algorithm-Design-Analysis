@@ -67,8 +67,8 @@ For *small graphs* (few vertices): The array-based implementation (a) is suffici
 For *large graphs* (many vertices and edges): The heap-based implementation (b) is superior. It handles both large and sparse graphs efficiently, reducing the time complexity to O((V+E)logV), which is significantly better than O(V^2) for dense or large graphs.
 
 ### Theoretical
-![alt text](TheoreticalDijkstraTimeComplexityComparison.png)
+![alt text](Images/TheoreticalDijkstraTimeComplexityComparison.png)
 
 ### Empirical
-![alt text](EmpiricalDijkstraTimeComplexityComparison.png)
-![alt text](TimeComplexityofComparison_Basic_Heap.png)
+![alt text](Images/EmpiricalDijkstraTimeComplexityComparison.png)
+![alt text](Images/TimeComplexityofComparison_Basic_Heap.png)
